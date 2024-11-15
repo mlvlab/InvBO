@@ -21,7 +21,7 @@ pip install molsets==0.3.1 --no-deps
 ## Run Experiments
 This repository provides InvBO applied to [CoBO](https://arxiv.org/pdf/2310.20258) [Lee et al., NeurIPS 2023] for small budget setting.
 ```
-python exec.py --cuda 0 --task_idx [TASK]
+python exec.py --cuda 0 --task_id [TASK]
 ```
 Since we predefined the coefficients for VAE loss terms in `exec.py` provided by CoBO, the available tasks for [TASK] are:
 
